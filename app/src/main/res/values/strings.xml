@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuotesApp</string>
+    <string name="enter_email_id">Enter email id</string>
+    <string name="submit">Submit</string>
+</resources>
