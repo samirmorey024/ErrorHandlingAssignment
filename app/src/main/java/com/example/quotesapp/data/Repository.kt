@@ -13,7 +13,5 @@ class Repository @Inject constructor ( private val quotesApi: QuotesApi) {
     suspend fun fetchQuotes() {
         val result = quotesApi.getQuotes(1)
         _quotesLiveData.postValue(result)
-
-
     }
 }
