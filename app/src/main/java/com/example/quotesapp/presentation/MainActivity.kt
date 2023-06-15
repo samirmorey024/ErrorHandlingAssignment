@@ -1,11 +1,11 @@
-package com.example.quotesapp
+package com.example.quotesapp.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.viewModels
-import com.example.quotesapp.presentation.MainViewmodel
+import com.example.quotesapp.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
